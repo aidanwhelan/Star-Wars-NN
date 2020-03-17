@@ -1,0 +1,32 @@
+1) removed non-ascii characters from StarWars_EpisodeIV_script
+    (a) look for apostrophes
+    (b) usually represented as unknown symbols
+
+2) removed author bylines in V an VI
+3) removed HTML headers from VI
+
+NOTES:
+- credit Machine Learning with Phil for tutorial
+  https://www.youtube.com/watch?v=xs6dOWlpQbM&t=748s
+- credit gastonstat for script texts
+  https://github.com/gastonstat/StarWars
+- credit website for ANH V2
+  https://www.oocities.org/eh_field7/movies/scripts/ep4_dr4r.htm
+- credit website for theStarWars_script
+  http://www.scifiscripts.com/scripts/swd1_5-74.txt
+
+
+First, test on just one episode (IV)
+
+REASON:
+- Sequels are notoriously tricky to write
+- Star Wars is a great *series* (more data)
+- Help improve moviemaking pipeline
+- I was inspired by Shakespeare NN
+- I am a huge fan of SW and films in general
+- NEXT -> TV episode generator
+
+MODEL:
+- One script: 192 epochs -> 0.1390 LOSS
+- ADD accuracy measurement (do we actually need accuracy?)
+- ADD accuracy and loss plots (bci-nn.py)
