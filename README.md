@@ -1,5 +1,6 @@
 # Star Wars Neural Network  
 An Artificial Neural Network to generate a film script in the style of Star Wars.  
+This model and approach is drawn from Machine Learning with Phil (channel linked below) as a study in Natural Language Processing and its applications for film scripts.  
 
 ### Motivation  
 **1)** To optimize the movie-making pipeline by assisting screenwriters in  generating script segments.  
